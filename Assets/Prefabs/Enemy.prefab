@@ -33,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1357397306307386676
 SpriteRenderer:
@@ -103,6 +103,12 @@ MonoBehaviour:
   MoveSpeed: 2
   MinX: -6
   MaxX: 6
+  health: 1
+  explosionPrefab: {fileID: 1487312621857534166, guid: ea878a9b291d5a646acbefe828f1f9ed, type: 3}
+  player: {fileID: 2918105098904008562, guid: 6833dae9018fee74d8e2368cb5700f96, type: 3}
+  bulletPrefab: {fileID: 2918105098904008562, guid: 0e4282f6e0ea1b445b939442f6473f2c, type: 3}
+  fireRate: 2
+  bulletSpeed: 10
 --- !u!61 &7794672235053462051
 BoxCollider2D:
   m_ObjectHideFlags: 0
